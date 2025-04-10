@@ -2,9 +2,9 @@
   "name": "Sula_MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
-  "main": "index.js",
+  "main": "sula.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name sulamd",
+    "start": "pm2 start sula.js --deep-monitoring --attach --name sulamd",
     "stop": "pm2 stop sulamd",
     "restart": "pm2 restart sulamd"
   },

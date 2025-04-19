@@ -10,6 +10,8 @@ MONGODB: process.env.MONGODB || "mongodb+srv://sulabijja:sulabijja@demon.d4ov0.m
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/WY2qBYz/SulaMd.jpg",
 BOT_NAME: process.env.BOT_NAME || "𝐒𝐔𝐋𝐀-𝐌𝐃",
 LANG: process.env.BOT_LANG || 'EN' ,
+AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "true" : process.env.AUTO_TIKTOK_SENDER,
+TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "94781121579@s.whatsapp.net" : process.env.TIKTOK_SEND_JID,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 };
